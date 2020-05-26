@@ -23,6 +23,5 @@ class UniqueValues(object):
 
 def test():
     unique = UniqueValues([1,1,1,1,1,2])
-    print(unique.count_values())
-
+    assert unique.count_values() == 2
 test()
