@@ -20,7 +20,6 @@ class UniqueValues(object):
                 current_value =self.arr[i]
         return unique_values
 
-
 def test():
     unique = UniqueValues([1,1,1,1,1,2])
     assert unique.count_values() == 2
