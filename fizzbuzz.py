@@ -7,8 +7,4 @@ def fizz_buzz(num):
         elif n % 5 == 0:
             print(f"{n} Buzz")
 
-def main():
-    fizz_buzz(50)
-
-main()
-
+fizz_buzz(20)
