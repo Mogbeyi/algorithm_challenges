@@ -1,17 +1,18 @@
+def build_dic(word):
+    hash_table = {}
+
+    for letter in word:
+        if letter in hash_table:
+            hash_table[letter] += 1
+        else:
+            hash_table[letter] = 1
+
+    return hash_table
+
+
 def difference(first_word, second_word):
     if len(first_word) != len(second_word):
         return -1
-
-    def build_dic(word):
-        hash_table = {}
-
-        for letter in word:
-            if letter in hash_table:
-                hash_table[letter] += 1
-            else:
-                hash_table[letter] = 1
-
-        return hash_table
 
     first_word_table = build_dic(first_word)
     second_word_table = build_dic(second_word)
@@ -25,7 +26,8 @@ def difference(first_word, second_word):
 
     return count
 
-print(difference('toe', 'tie'))
-print(difference('faang', 'beemg'))
-print(difference('hello', 'hell'))
-print(difference('love', 'life'))
+
+print(difference("toe", "tie"))
+print(difference("faang", "beemg"))
+print(difference("hello", "hell"))
+print(difference("love", "life"))
