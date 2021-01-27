@@ -32,4 +32,5 @@ print(difference("faang", "beemg"))
 print(difference("hello", "hell"))
 print(difference("love", "life"))
 print(difference("lie", "loe"))
+print(difference("aaaaaaaa", "zzzzzzzz"))
 
