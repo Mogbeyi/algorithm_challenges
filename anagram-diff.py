@@ -1,4 +1,4 @@
-def build_dic(word):
+def build_dictionary(word):
     hash_table = {}
 
     for letter in word:
@@ -14,8 +14,8 @@ def difference(first_word, second_word):
     if len(first_word) != len(second_word):
         return -1
 
-    first_word_table = build_dic(first_word)
-    second_word_table = build_dic(second_word)
+    first_word_table = build_dictionary(first_word)
+    second_word_table = build_dictionary(second_word)
     count = 0
 
     for key in first_word_table.keys():
@@ -31,3 +31,5 @@ print(difference("toe", "tie"))
 print(difference("faang", "beemg"))
 print(difference("hello", "hell"))
 print(difference("love", "life"))
+print(difference("lie", "loe"))
+
