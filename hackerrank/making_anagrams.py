@@ -21,10 +21,14 @@ def make_anagrams(first, second):
             
     return combined_string_length
 
-def main():
-    assert make_anagrams('abc', 'cde') == 4 
-    assert make_anagrams('abc', 'amnop') == 6 
-    assert make_anagrams('aaa', 'aaabb') == 2 
-    assert make_anagrams('absdjkvuahdakejfnfauhdsaavasdlkj', 'djfladfhiawasdkjvalskufhafablsdkashlahdfa') == 4 
+print(make_anagrams('absdjkvuahdakejfnfauhdsaavasdlkj', 'djfladfhiawasdkjvalskufhafablsdkashlahdfa'))
+print(make_anagrams('abc', 'cde'))
 
-main()
+#
+#def main():
+#    assert make_anagrams('abc', 'cde') == 4 
+#    assert make_anagrams('abc', 'amnop') == 6 
+#    assert make_anagrams('aaa', 'aaabb') == 2 
+#    assert make_anagrams('absdjkvuahdakejfnfauhdsaavasdlkj', 'djfladfhiawasdkjvalskufhafablsdkashlahdfa') == 4 
+#
+#main()
