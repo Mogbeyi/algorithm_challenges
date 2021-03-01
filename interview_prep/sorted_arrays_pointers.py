@@ -4,7 +4,10 @@ def sorted_arr(first_array, second_array):
 	max_arr_length = len(first_array) - 1
 	count = 0
 
-	while first_pointer < max_arr_length or second_pointer < max_arr_length:
+	while True:
+		if first_pointer > max_arr_length or second_pointer > max_arr_length:
+			return count
+
 		if first_array[first_pointer] == second_array[second_pointer]:
 			count += 1
 			first_pointer += 1
@@ -13,7 +16,4 @@ def sorted_arr(first_array, second_array):
 		else:
 			second_pointer += 1
 
-
-	return count
-
-print(sorted_arr([13, 27, 35, 40, 49, 55, 59], [17, 35, 39, 40, 55, 58, 60]))
+assert sorted_arr([13, 27, 35, 40, 49, 55, 59], [17, 35, 39, 40, 55, 58, 60]) == 3
