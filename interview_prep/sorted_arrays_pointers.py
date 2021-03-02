@@ -8,7 +8,7 @@ def sorted_arr(first_array, second_array):
 		if first_pointer > max_arr_length or second_pointer > max_arr_length:
 			return count
 
-		if first_array[first_pointer] == second_array[second_pointer]:
+		elif first_array[first_pointer] == second_array[second_pointer]:
 			count += 1
 			first_pointer += 1
 		elif first_array[first_pointer] < second_array[second_pointer]:
