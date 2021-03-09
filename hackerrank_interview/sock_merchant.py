@@ -15,16 +15,16 @@
 def sockMerchant(n, ar):
     array_set = set()
     count = 0
-    
+
     for elem in ar:
         if elem in array_set:
             array_set.remove(elem)
             count += 1
         else:
             array_set.add(elem)
-            
+
     return count
 
 
-print(sockMerchant(7, [1,2,1,2,1,3,2]))
+print(sockMerchant(7, [1, 2, 1, 2, 1, 3, 2]))
 print(sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]))
