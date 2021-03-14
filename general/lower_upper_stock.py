@@ -1,6 +1,6 @@
 def upper_lower_stock(arr):
-	minimum_value = get_min(arr)
-	maximum_value = get_max(arr)
+	minimum_value = get_value(arr, lambda x, y: x < y) 
+	maximum_value = get_value(arr, lambda x, y: x > y) 
 	total = 0
 
 	for element in arr:
@@ -9,23 +9,13 @@ def upper_lower_stock(arr):
 
 	return total / len(arr) 
 
+def get_value(arr, func):
+    result = arr[0]
 
-def get_min(arr):
-	result = arr[0]
+    for element in arr:
+        if func(element, result): 
+            result = element
 
-	for element in arr:
-	    if element < result: 
-	        result = element
-
-	return result
-
-def get_max(arr):
-	result = arr[0]
-
-	for element in arr:
-	    if element > result: 
-	        result = element
-
-	return result
+    return result
 
 print(upper_lower_stock([1,2,3,4]))
