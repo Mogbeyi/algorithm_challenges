@@ -19,3 +19,4 @@ def get_value(arr, func):
     return result
 
 print(upper_lower_stock([1,2,3,4]))
+
