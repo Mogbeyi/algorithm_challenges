@@ -8,5 +8,6 @@ def fib(n, cache={}):
     return cache[n]
 
 print(fib(5))
+print(fib(6))
 print(fib(8))
 print(fib(100))
