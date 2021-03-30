@@ -14,18 +14,16 @@ def convert_to_binary(N):
 	return binary_value[::-1]
 
 def solution(N):
-	binary_value = convert_to_binary(N)
-	one_positions = get_one_positions(binary_value)
-	longest_binary_gap = 0
+    binary_value = convert_to_binary(N)
+    prev = 0
+    next = 0
+    maximum = 0
 
-	for i in range(len(one_positions) - 1):
-		difference = abs(one_positions[i] - one_positions[i + 1])
-		if difference > longest_binary_gap: 
-			longest_binary_gap = difference 
+    for i, value in enumerate(binary_value):
+        if value == '1':
+            next = i
+            maximum = next - prev if next - prev > maximum else maximum
+            prev = next
 
-	return 0 if longest_binary_gap == 0 else longest_binary_gap - 1
-
-
-def get_one_positions(value):
-	return [i for i in range(len(value)) if value[i] == '1']
+    return maximum - 1
 
