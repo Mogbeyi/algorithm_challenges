@@ -5,14 +5,15 @@ import os
 import random
 import re
 import sys
-from collections import Counter
+import string
+
 # Complete the anagram function below.
+lower_case_letters = string.ascii_lowercase
 def anagram(s):
-    # 'xaxbbbxx'
-    first_half = s[:len(s) // 2] # 'xaxb'
-    second_half = s[len(s) // 2:] #'bbxx'
-    minimum_characters = 0  # 1
-    second_half_counter = Counter(second_half) #{b -> 2, x -> 0}
+    first_half = s[len(s) // 2:]
+    second_half = s[:len(s) // 2]
+    minimum_count = 0
+    letter_count_freq = form_count_freq(second_half)
     
     if len(first_half) != len(second_half):
         return -1
@@ -20,18 +21,25 @@ def anagram(s):
         return 0
     
     for char in first_half:
-        if char not in second_half_counter:
-            minimum_characters += 1
-        elif char in second_half_counter and second_half_counter[char] > 0:
-            second_half_counter[char] -= 1
-        elif char in second_half_counter and second_half_counter[char] <= 0:
-            minimum_characters += 1
+        index = lower_case_letters.index(char)
+        if letter_count_freq[index] == 0:
+            minimum_count += 1
+        elif letter_count_freq[index] > 0:
+            letter_count_freq[index] -= 1
+        elif letter_count_freq[index] <= 0:
+            minimum_count += 1
             
-    return minimum_characters
-    
-    
-    
+    return minimum_count
 
+def form_count_freq(string):
+    letter_freq = [0] * 26
+    
+    for char in string:
+        index = lower_case_letters.index(char)
+        letter_freq[index] += 1
+        
+    return letter_freq
+  
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
