@@ -1,9 +1,10 @@
 import unittest
 
+
 def can_two_movies_fill_flight(movie_lengths, flight_length):
     if len(movie_lengths) < 2:
         return False
-    
+
     set_of_movie_lengths = set()
 
     for elem in movie_lengths:
@@ -14,10 +15,11 @@ def can_two_movies_fill_flight(movie_lengths, flight_length):
 
     return False
 
+
 # Tests
 
-class Test(unittest.TestCase):
 
+class Test(unittest.TestCase):
     def test_short_flight(self):
         result = can_two_movies_fill_flight([2, 4], 1)
         self.assertFalse(result)
