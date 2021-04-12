@@ -8,31 +8,42 @@ def merge_lists(my_list, alices_list):
     my_list_pointer = 4
     alices_list_pointer = 2
     merged_list = [1, 2, 4, 6, 7,8] 
+
+    my_list [1, 7]
+    alices_list [2, 4]
     '''
     
-    my_list_pointer = 0     #2
-    alices_list_pointer = 0 #1
-    my_list_length = len(my_list) #3 
-    alices_list_length = len(alices_list) #3
-    bigger_list_length = my_list_length if my_list_length > alices_list_length else alices_list_length #3
-    merged_list = []  #[1, 3, 4, 5]
+    my_list_pointer = 0     #1
+    alices_list_pointer = 0 #2
+    my_list_length = len(my_list) #2
+    alices_list_length = len(alices_list)  #2
+    bigger_list_length = my_list_length if my_list_length > alices_list_length else alices_list_length #2
+    merged_list = []  # [1, 2, 4]
 
 
     while (my_list_pointer < bigger_list_length) or (alices_list_pointer < bigger_list_length):
-            if my_list[my_list_pointer] <= alices_list[alices_list_pointer] and my_list_pointer < my_list_length:
+            print(merged_list, alices_list_pointer)
+            if my_list[my_list_pointer] < alices_list[alices_list_pointer] and my_list_pointer < my_list_length:
                 result = my_list[my_list_pointer]
                 merged_list.append(result)
                 if my_list_pointer != my_list_length:
                     my_list_pointer += 1
-            if my_list[my_list_pointer] >= alices_list[alices_list_pointer] and alices_list_pointer < alices_list_length:
+            elif my_list[my_list_pointer] > alices_list[alices_list_pointer] and alices_list_pointer < alices_list_length:
                 second_result = alices_list[alices_list_pointer]
                 merged_list.append(second_result)
                 if alices_list_pointer != alices_list_length:
                     alices_list_pointer += 1
-
+            else:
+                my_result = my_list[my_list_pointer]
+                merged_list.append(my_result)
+                alice_result = alices_list[alices_list_pointer]
+                merged_list.append(alice_result)
+                my_list_pointer += 1
+                alices_list_pointer += 1
     return merged_list
 
-print(merge_lists([2, 4, 6, 8], [1, 2, 3, 7]))
+# print(merge_lists([2, 4, 6, 8], [1, 2, 3, 7]))
+print(merge_lists([1, 7], [2, 4]))
 
 
 # Tests
