@@ -2,22 +2,16 @@ def get_max_profit(stock_prices):
     if len(stock_prices) < 2:
         raise Exception("Sorry no numbers below 2")
         
-    return max(stock_prices) - min(stock_prices)
+    max_profit = float("-inf") 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    for i in range(len(stock_prices)):
+        for j in range(i + 1, len(stock_prices)):
+            if i == len(stock_prices) - 1:
+                break
+            elif stock_prices[j] - stock_prices[i] > max_profit:
+                max_profit = stock_prices[j] - stock_prices[i]
+    return max_profit
+    
 
 
 
