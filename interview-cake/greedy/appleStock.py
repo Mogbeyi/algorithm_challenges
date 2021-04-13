@@ -1,9 +1,9 @@
 def get_max_profit(stock_prices):
     if len(stock_prices) < 2:
         raise Exception("Sorry no numbers below 2")
-        
-    max_profit = float("-inf") 
-    
+
+    max_profit = float("-inf")
+
     for i in range(len(stock_prices)):
         for j in range(i + 1, len(stock_prices)):
             if i == len(stock_prices) - 1:
@@ -11,19 +11,14 @@ def get_max_profit(stock_prices):
             difference = stock_prices[j] - stock_prices[i]
             max_profit = max(max_profit, difference)
     return max_profit
-    
-
-
-
-
 
 
 # Tests
 
 import unittest
 
-class Test(unittest.TestCase):
 
+class Test(unittest.TestCase):
     def test_price_goes_up_then_down(self):
         actual = get_max_profit([1, 5, 3, 2])
         expected = 4
@@ -37,7 +32,7 @@ class Test(unittest.TestCase):
     def test_big_increase_then_small_increase(self):
         actual = get_max_profit([2, 10, 1, 4])
         expected = 8
-        self.assertEqual(actual, expected)                
+        self.assertEqual(actual, expected)
 
     def test_price_goes_up_all_day(self):
         actual = get_max_profit([1, 6, 7, 9])
