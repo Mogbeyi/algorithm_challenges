@@ -3,32 +3,30 @@ import unittest
 def is_first_come_first_served(take_out_orders, dine_in_orders, served_orders):
     '''
       Take Out Orders: [1, 3, 5]
-      Dine In Orders: [2, 4, 6]
+      Dine In Orders: [1, 4, 6]
       Served Orders: [1, 2, 4, 6, 5, 3]
-        
       a_pointer = 0
       list = [1, 2]
-
-      
-
     '''
-    return False
 
+    served_pointer, take_out_pointer, dine_in_pointer = 0, 0, 0
 
+    while served_pointer < len(served_orders):
+        if len(take_out_orders) + len(dine_in_orders) != len(served_orders):
+            return False
+        if take_out_pointer == len(take_out_orders) and dine_in_pointer == len(dine_in_orders):
+            break
 
+        if take_out_pointer < len(take_out_orders) and take_out_orders[take_out_pointer] == served_orders[served_pointer]:
+            take_out_pointer += 1
+            served_pointer += 1
+        elif dine_in_pointer < len(dine_in_orders) and dine_in_orders[dine_in_pointer] == served_orders[served_pointer]:
+            dine_in_pointer += 1
+            served_pointer += 1
+        else:
+            return False
 
-
-
-
-
-
-
-
-
-
-
-
-
+    return True
 
 
 # Tests
@@ -68,3 +66,4 @@ class Test(unittest.TestCase):
         self.assertTrue(result)
 
 unittest.main(verbosity=2)
+
