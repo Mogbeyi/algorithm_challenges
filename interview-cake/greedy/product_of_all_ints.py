@@ -1,5 +1,4 @@
 import unittest
-from functools import reduce
 
 def get_products_of_all_ints_except_at_index(int_list):
     if len(int_list) < 2:
