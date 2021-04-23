@@ -5,19 +5,20 @@ def get_products_of_all_ints_except_at_index(int_list):
     if len(int_list) < 2:
         raise ValueError("List length should be greater than 1")
         
-    result = [1] * len(int_list)
-    
-    for i, elem in enumerate(int_list):
-        result[i] = get_product(int_list[:i] + int_list[i + 1:])
-        
+    result = [None] * len(int_list)
+    product_so_far = 1
+
+    for i in range(len(int_list)):
+        result[i] = product_so_far
+        product_so_far *= int_list[i]
+
+    product_so_far = 1
+
+    for i in range(len(int_list) - 1, -1, -1):
+        result[i] *= product_so_far
+        product_so_far *= int_list[i]
+
     return result
-    
-def get_product(arr):
-    return reduce(lambda x, y: x * y, arr)
-
-
-
-
 
 class Test(unittest.TestCase):
 
