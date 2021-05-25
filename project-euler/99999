@@ -1,0 +1,15 @@
+: 1621986030:0;ls
+: 1621986032:0;clear
+: 1621986032:0;ls
+: 1621986052:0;vim prob1.py
+: 1621986159:0;python
+: 1621986168:0;python prob1.py
+: 1621986174:0;vim prob1.py
+: 1621986195:0;python prob1.py
+: 1621986203:0;vim prob1.py
+: 1621986216:0;python prob1.py
+: 1621986251:0;vim prob1.py
+: 1621986262:0;python prob1.py
+: 1621986311:0;vim prob2.py
+: 1621986321:0;ls
+: 1621986324:0;git add .
