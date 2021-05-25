@@ -13,3 +13,35 @@
 : 1621986311:0;vim prob2.py
 : 1621986321:0;ls
 : 1621986324:0;git add .
+: 1621986333:0;git commit -m "Solve first problem"
+: 1621986334:0;git push
+: 1621986341:0;ls
+: 1621986345:0;vim prob2.py
+: 1621986643:0;python prob2.py
+: 1621986649:0;vim prob2.py
+: 1621986727:0;python prob2.py
+: 1621986737:0;vim prob2.py
+: 1621986756:0;python prob2.py
+: 1621986762:0;vim prob2.py
+: 1621986796:0;python prob2.py
+: 1621986809:0;vim prob2.py
+: 1621986843:0;python prob2.py
+: 1621986858:0;vim prob2.py
+: 1621986869:0;python prob2.py
+: 1621986886:0;vim prob2.py
+: 1621986896:0;python prob2.py
+: 1621986906:0;vim prob2.py
+: 1621986918:0;python prob2.py
+: 1621986924:0;vim prob2.py
+: 1621986939:0;python prob2.py
+: 1621986943:0;vim prob2.py
+: 1621987059:0;python prob2.py
+: 1621987066:0;vim prob2.py
+: 1621987076:0;python prob2.py
+: 1621987079:0;vim prob2.py
+: 1621987115:0;python prob2.py
+: 1621987120:0;vim prob2.py
+: 1621987139:0;python prob2.py
+: 1621987143:0;vim prob2.py
+: 1621987154:0;python prob2.py
+: 1621987195:0;git commit -am "Solve problem 2"
