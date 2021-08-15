@@ -8,3 +8,7 @@
 : 1628551901:0;python queries.py
 : 1628551913:0;vim queries.py
 : 1628551931:0;git add .
+: 1628551948:0;git commit -m "Brute force solution to queries"
+: 1628551950:0;git push
+: 1628589795:0;ls
+: 1628769331:0;clear

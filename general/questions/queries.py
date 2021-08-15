@@ -1,16 +1,37 @@
+from collections import Counter
+
+# def getMaxAndMinProduct(A, Q, N, P):
+#     ans = []
+
+#     for elem in Q:
+#         count = 0
+
+#         for value in A:
+#             if value % elem == 0:
+#                 count += 1
+
+#         ans.append(count)
+
+#     return ans
+
 def getMaxAndMinProduct(A, Q, N, P):
-    ans = []
+    max_value = max(A)
+    freq_of_A = Counter(A)
+    answer = []
 
-    for elem in Q:
+    for value in Q:
         count = 0
+        result = 1
 
-        for value in A:
-            if value % elem == 0:
+        for i in range(max_value):
+            result = value * i
+            if result > max_value:
+                break
+            if result in freq_of_A:
                 count += 1
+        answer.append(count)
 
-        ans.append(count)
-
-    return ans
+    return answer
 
 def main():
     N = 6
