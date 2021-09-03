@@ -4,3 +4,12 @@
 : 1624997846:0;vim sum-of-unique.py
 : 1624997876:0;python sum-of-unique.py
 : 1624997881:0;git add .
+: 1624997893:0;git commit -m "Solve sum of unique challenge"
+: 1624997895:0;git push
+: 1624998321:0;python
+: 1625078418:0;ls
+: 1625078422:0;cd ../..
+: 1630666439:0;ls
+: 1630666442:0;cd ..
+: 1630666470:0;ls
+: 1630666488:0;touch rotate_array.py
