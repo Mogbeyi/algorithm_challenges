@@ -19,3 +19,61 @@
 : 1631050524:0;ls
 : 1631050553:0;vim find_missing_numbers.py
 : 1631050570:0;git add .
+: 1631050580:0;git commit -m "Solve find missing numbers"
+: 1631050582:0;git push
+: 1631095041:0;clear
+: 1631110934:0;ls
+: 1631110936:0;cd ..
+: 1631168830:0;ls
+: 1631168849:0;vim permutation_in_string.py
+: 1631169097:0;python permutation_in_string.py
+: 1631169109:0;vim permutation_in_string.py
+: 1631169125:0;python permutation_in_string.py
+: 1631169138:0;vim permutation_in_string.py
+: 1631169152:0;python permutation_in_string.py
+: 1631169161:0;vim permutation_in_string.py
+: 1631169280:0;ls
+: 1631169285:0;python permutation_in_string.py
+: 1631169497:0;python
+: 1631169599:0;python permutation_in_string.py
+: 1631169614:0;exit
+: 1631169927:0;python permutation_in_string.py
+: 1631169935:0;vim permutation_in_string.py
+: 1631170027:0;python permutation_in_string.py
+: 1631170033:0;vim permutation_in_string.py
+: 1631170061:0;python permutation_in_string.py
+: 1631170076:0;vim permutation_in_string.py
+: 1631170095:0;clear
+: 1631170098:0;vim permutation_in_string.py
+: 1631170105:0;ls
+: 1631170109:0;subl permutation_in_string.py
+: 1631170798:0;vim permutation_in_string.py
+: 1631170822:0;python permutation_in_string.py
+: 1631170852:0;vim permutation_in_string.py
+: 1631170868:0;python permutation_in_string.py
+: 1631170872:0;vim permutation_in_string.py
+: 1631180504:0;python permutation_in_string.py
+: 1631180508:0;vim permutation_in_string.py
+: 1631180514:0;python permutation_in_string.py
+: 1631180522:0;vim permutation_in_string.py
+: 1631180555:0;python permutation_in_string.py
+: 1631180560:0;vim permutation_in_string.py
+: 1631180586:0;python permutation_in_string.py
+: 1631181042:0;vim permutation_in_string.py
+: 1631181221:0;python permutation_in_string.py
+: 1631181235:0;vim permutation_in_string.py
+: 1631183849:0;vim fact.py
+: 1631183893:0;python fact.py
+: 1631183906:0;rm fact.py
+: 1631183910:0;vim reverse.py
+: 1631183965:0;python reverse.py
+: 1631184900:0;clear
+: 1631184901:0;ls
+: 1631184903:0;vim find_missing_numbers.py
+: 1631184909:0;ls
+: 1631184914:0;vim reverse.py
+: 1631184937:0;rm reverse.py
+: 1631184938:0;clear
+: 1631250814:0;ls
+: 1631250825:0;vim permutation_in_string.py
+: 1631250839:0;git add .
