@@ -39,3 +39,16 @@ exit
 : 1632681504:0;clear
 : 1632681530:0;git -am "Find palindromes using recursion"
 : 1632681546:0;git commit -am "Find palindromes using recursion"
+: 1632681551:0;git push
+: 1632682325:0;touch find_binary.py
+: 1632682327:0;code find_binary.py
+: 1632682603:0;python find_binary.py
+: 1632682723:0;python
+: 1632682924:0;clear
+: 1632682924:0;ls
+: 1632682928:0;python find_binary.py
+: 1632683257:0;python
+: 1632683495:0;clear
+: 1632684810:0;python find_binary.py
+: 1632688033:0;clear
+: 1632688053:0;git commit -am "Convert decimal to binary using recursion"
