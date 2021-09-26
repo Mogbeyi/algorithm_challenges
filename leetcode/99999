@@ -77,3 +77,23 @@
 : 1631250814:0;ls
 : 1631250825:0;vim permutation_in_string.py
 : 1631250839:0;git add .
+: 1631250882:0;git commit -m "Find permuation in a string"
+: 1631250884:0;git push
+: 1631253945:0;clear
+: 1631255318:0;ls
+: 1631255319:0;s
+: 1631255321:0;ls
+: 1631255322:0;clear
+: 1631255322:0;ls
+: 1631255326:0;vim test.py
+: 1631255386:0;python test.py
+: 1631255391:0;vim test.py
+: 1631255405:0;python test.py
+: 1631255409:0;vim test.py
+: 1631255417:0;python test.py
+: 1631255424:0;vim test.py
+: 1631255546:0;python test.py
+: 1631255549:0;vim test.py
+: 1631255567:0;rm test.py
+: 1631295903:0;ls
+: 1631295905:0;cd ..

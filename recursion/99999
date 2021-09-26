@@ -30,3 +30,12 @@ exit
 : 1632681059:0;ls
 : 1632681062:0;python reverse_string.py
 : 1632681074:0;git add .
+: 1632681092:0;git commit -m "Reverse a string using recursion"
+: 1632681094:0;git push
+: 1632681099:0;clear
+: 1632681275:0;touch palindrome.py
+: 1632681277:0;code palindrome.py
+: 1632681434:0;python palindrome.py
+: 1632681504:0;clear
+: 1632681530:0;git -am "Find palindromes using recursion"
+: 1632681546:0;git commit -am "Find palindromes using recursion"

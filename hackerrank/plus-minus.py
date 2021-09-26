@@ -15,4 +15,3 @@ def plusMinus(arr):
     print(round(positive / size, 6))
     print(round(negative / size, 6))
     print(round(zero / size, 6))
-

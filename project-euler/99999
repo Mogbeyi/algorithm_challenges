@@ -11,3 +11,8 @@
 : 1622369152:0;touch .gitignore
 : 1622369167:0;echo 99999 >> .gitignore
 : 1622369171:0;git add .
+: 1622369180:0;git commit -m "Add a gitignore file"
+: 1622369182:0;git push
+: 1622369190:0;git diff
+: 1622369197:0;clear
+: 1622369233:0;cd ~
