@@ -59,3 +59,43 @@ exit
 : 1632691491:0;code recursive_summation.py
 : 1632691568:0;python recursive_summation.py
 : 1632691606:0;git commit -am "Sum natural numbers using recursion"
+: 1632691608:0;git push
+: 1632692326:0;touch recursive_binary_search.py
+: 1632692330:0;code recursive_binary_search.py
+: 1632692566:0;python
+: 1632692688:0;clear
+: 1632692688:0;ls
+: 1632692692:0;python recursive_binary_search.py
+: 1632692777:0;clear
+: 1632692779:0;python
+: 1632692814:0;python recursive_binary_search.py
+: 1632692820:0;clear
+: 1632692821:0;ls
+: 1632692826:0;python recursive_binary_search.py
+: 1632692913:0;clear
+: 1632693010:0;python
+: 1632693135:0;clear
+: 1632693184:0;ls
+: 1632693189:0;python recursive_binary_search.py
+: 1632693230:0;clear
+: 1632693232:0;python recursive_binary_search.py
+: 1632693415:0;clear
+: 1632693415:0;ls
+: 1632693423:0;python recursive_binary_search.py
+: 1632693438:0;clear
+: 1632693439:0;ls
+: 1632693447:0;python recursive_binary_search.py
+: 1632693527:0;python
+: 1632693722:0;clear
+: 1632693722:0;ls
+: 1632693725:0;python recursive_binary_search.py
+: 1632693783:0;python
+: 1632694013:0;python recursive_binary_search.py
+: 1632694156:0;clear
+: 1632694166:0;python recursive_binary_search.py
+: 1632742780:0;ls
+: 1632742785:0;python recursive_binary_search.py
+: 1632742787:0;clear
+: 1632742858:0;/usr/local/bin/python3 /Users/emmywonder/programming/python/algorithm_challenges/recursion/recursive_binary_search.py
+: 1632742911:0;clear
+: 1632743163:0;/usr/local/bin/python3 /Users/emmywonder/programming/python/algorithm_challenges/recursion/recursive_summation.py
