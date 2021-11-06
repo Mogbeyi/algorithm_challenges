@@ -4,17 +4,6 @@ class Solution(object):
         :type arr: List[int]
         :rtype: bool
         """
-        
-        '''
-        Ideas
-            if len(arr) < 3: return False
-            if max_value == first or last elem: return false
-            Find the maximum number in the array
-            Every number must strictly increase before the max
-            Every number must strictly decrease after the max
-            If false at any point, return false, else return true
-        '''
-        
         if len(arr) < 3: return False
         
         max_value = max(arr)
