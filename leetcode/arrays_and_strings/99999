@@ -1,0 +1,109 @@
+: 1636105444:0;touch move_zeros.py
+: 1636105447:0;vim move_zeros.py
+: 1636105622:0;ls
+: 1636105628:0;vim move_zeros.py
+: 1636105973:0;clear
+: 1636105974:0;ls
+: 1636105978:0;python move_zeros.py
+: 1636105984:0;vim move_zeros.py
+: 1636106241:0;cd ~
+: 1636109727:0;ls
+: 1636109728:0;vim move_zeros.py
+: 1636114415:0;ls
+: 1636114856:0;vim move_zeros.py
+: 1636119189:0;python move_zeros.py
+: 1636119205:0;vim move_zeros.py
+: 1636119383:0;python move_zeros.py
+: 1636119390:0;vim move_zeros.py
+: 1636119701:0;python
+: 1636119788:0;clear
+: 1636119789:0;ls
+: 1636119796:0;vim move_zeros.py
+: 1636119948:0;python move_zeros.py
+: 1636119954:0;vim move_zeros.py
+: 1636119965:0;python move_zeros.py
+: 1636119968:0;vim move_zeros.py
+: 1636120151:0;python move_zeros.py
+: 1636120159:0;vim move_zeros.py
+: 1636120175:0;python move_zeros.py
+: 1636120179:0;vim move_zeros.py
+: 1636120190:0;python move_zeros.py
+: 1636120208:0;vim move_zeros.py
+: 1636120235:0;python move_zeros.py
+: 1636120250:0;vim move_zeros.py
+: 1636120290:0;python move_zeros.py
+: 1636120295:0;vim move_zeros.py
+: 1636128715:0;python move_zeros.py
+: 1636128723:0;vim move_zeros.py
+: 1636128731:0;python move_zeros.py
+: 1636128737:0;vim move_zeros.py
+: 1636129454:0;clear
+: 1636139908:0;ls
+: 1636139910:0;vim move_zeros.py
+: 1636139943:0;python move_zeros.py
+: 1636139955:0;vim move_zeros.py
+: 1636139982:0;python move_zeros.py
+: 1636139985:0;vim move_zeros.py
+: 1636140016:0;python move_zeros.py
+: 1636140028:0;vim move_zeros.py
+: 1636140145:0;python move_zeros.py
+: 1636140151:0;vim move_zeros.py
+: 1636143745:0;python move_zeros.py
+: 1636143757:0;vim move_zeros.py
+: 1636143860:0;python move_zeros.py
+: 1636143864:0;vim move_zeros.py
+: 1636144265:0;python move_zeros.py
+: 1636144270:0;vim move_zeros.py
+: 1636144283:0;python move_zeros.py
+: 1636144285:0;clear
+: 1636144287:0;python move_zeros.py
+: 1636144353:0;vim move_zeros.py
+: 1636144419:0;subl move_zeros.py
+: 1636144726:0;vim move_zeros.py
+: 1636145065:0;python move_zeros.py
+: 1636145074:0;vim move_zeros.py
+: 1636145201:0;python move_zeros.py
+: 1636145206:0;vim move_zeros.py
+: 1636155837:0;python move_zeros.py
+: 1636155841:0;vim move_zeros.py
+: 1636156034:0;python move_zeros.py
+: 1636156038:0;vim move_zeros.py
+: 1636156246:0;python move_zeros.py
+: 1636156251:0;vim move_zeros.py
+: 1636156337:0;python move_zeros.py
+: 1636156344:0;vim move_zeros.py
+: 1636156389:0;python move_zeros.py
+: 1636156398:0;vim move_zeros.py
+: 1636157268:0;python move_zeros.py
+: 1636157277:0;vim move_zeros.py
+: 1636157304:0;python move_zeros.py
+: 1636157307:0;vim move_zeros.py
+: 1636157336:0;python move_zeros.py
+: 1636157339:0;vim move_zeros.py
+: 1636157344:0;python move_zeros.py
+: 1636157353:0;vim move_zeros.py
+: 1636157368:0;clear
+: 1636157369:0;ls
+: 1636157371:0;vim move_zeros.py
+: 1636157392:0;python move_zeros.py
+: 1636157400:0;vim move_zeros.py
+: 1636157413:0;python move_zeros.py
+: 1636157421:0;vim move_zeros.py
+: 1636157461:0;python move_zeros.py
+: 1636157466:0;vim move_zeros.py
+: 1636157574:0;python move_zeros.py
+: 1636157578:0;vim move_zeros.py
+: 1636158107:0;python move_zeros.py
+: 1636158114:0;vim move_zeros.py
+: 1636158124:0;python move_zeros.py
+: 1636158128:0;vim move_zeros.py
+: 1636158142:0;python move_zeros.py
+: 1636158147:0;vim move_zeros.py
+: 1636158233:0;clear
+: 1636158233:0;ls
+: 1636158235:0;cd ..
+: 1636158263:0;ls
+: 1636158265:0;vim move_zeros.py
+: 1636158374:0;ls
+: 1636158376:0;git add .
+: 1636158469:0;git commit -am "Solve move zeros challenges"

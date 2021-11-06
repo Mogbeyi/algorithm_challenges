@@ -117,3 +117,28 @@
 : 1632784664:0;history
 : 1632784675:0;ls
 : 1632784677:0;cd ..
+: 1636076927:0;ls
+: 1636076938:0;vim find_missing_numbers.py
+: 1636076951:0;ls
+: 1636076954:0;vim permutation_in_string.py
+: 1636077031:0;ls
+: 1636077035:0;cd ..
+: 1636103954:0;ls
+: 1636103957:0;cd ..
+: 1636103966:0;ls
+: 1636103989:0;vim first-unique-character.py
+: 1636104795:0;ls
+: 1636104798:0;vim rotate_array.py
+: 1636104935:0;cd ~
+: 1636105366:0;ls
+: 1636105381:0;mkdir general
+: 1636105385:0;mv *.py general
+: 1636105386:0;ls
+: 1636105387:0;clear
+: 1636105410:0;ls
+: 1636105425:0;mkdir arrays_and_strings
+: 1636105427:0;cd arrays_and_strings
+: 1636109723:0;ls
+: 1636109726:0;cd arrays_and_strings
+: 1636158236:0;ls
+: 1636158262:0;cd arrays_and_strings

@@ -63,3 +63,21 @@
 : 1633563809:0;clear
 : 1633563811:0;ls
 : 1633563812:0;git add .
+: 1633563821:0;git commit -m "Solve combination challenge"
+: 1633563823:0;git push
+: 1633563827:0;clear
+: 1633564311:0;vim combination.py
+: 1633564319:0;python combination.py
+: 1633564330:0;clear
+: 1633612707:0;ls
+: 1633612710:0;vim combination.py
+: 1633620147:0;ls
+: 1633620150:0;cd ..
+: 1634559571:0;vim recursive_max.py
+: 1634559593:0;python recursive_max.py
+: 1634559599:0;vim recursive_max.py
+: 1634559611:0;python recursive_max.py
+: 1634559613:0;clear
+: 1634559617:0;vim recursive_max.py
+: 1634559631:0;python recursive_max.py
+: 1634559634:0;cd ..

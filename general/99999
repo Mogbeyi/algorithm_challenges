@@ -1,0 +1,51 @@
+: 1623884536:0;ls
+: 1623884542:0;ls dynamic-programming
+: 1623886506:0;heroku
+: 1623886508:0;clear
+: 1623886565:0;brew tap heroku/brew && brew install heroku
+: 1623926708:0;ls
+: 1623926713:0;vim swap.c
+: 1623926952:0;cc -o swap swap.c
+: 1623926964:0;vim swap.c
+: 1623927013:0;cc -o swap swap.c
+: 1623927019:0;./swap
+: 1623927230:0;ls
+: 1623927234:0;vim swap.c
+: 1623927447:0;./swap
+: 1623927451:0;ls
+: 1623927459:0;ls -a
+: 1623929839:0;cd ../..
+: 1628551508:0;ls
+: 1628551509:0;clear
+: 1628551510:0;ls
+: 1628551515:0;cat swap.c
+: 1628551524:0;rm swap.c swap
+: 1628551525:0;ls
+: 1628551526:0;clear
+: 1628551527:0;ls
+: 1628551531:0;cd questions
+: 1633557457:0;ls
+: 1633557460:0;cd dynamic-programming
+: 1633561719:0;ls
+: 1633561723:0;ls questions
+: 1633561725:0;tree
+: 1633561741:0;git diff
+: 1633561745:0;clear
+: 1633561745:0;ls
+: 1633561749:0;cd questions
+: 1633620151:0;ls
+: 1633620152:0;cd ..
+: 1634559543:0;ls
+: 1634559549:0;ls questions
+: 1634559564:0;cd questions
+: 1634559635:0;ls
+: 1634559648:0;vim find_biggest.py
+: 1634559806:0;python find_biggest.py
+: 1634559809:0;vim find_biggest.py
+: 1634559861:0;python find_biggest.py
+: 1634559870:0;vim find_biggest.py
+: 1634559901:0;python find_biggest.py
+: 1634559903:0;vim find_biggest.py
+: 1634559963:0;rm find_biggest.py
+: 1634599334:0;ls
+: 1634600984:0;cd ~

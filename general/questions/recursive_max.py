@@ -5,8 +5,7 @@ def recursive_max(arr):
         return arr[0] if arr[0] > arr[1] else arr[1]
     else:
         largest = recursive_max(arr[1:])
-        print(largest)
         return arr[0] if arr[0] > largest else largest
 
 #print(recursive_max([1,2,3,3,4,5]))
-print(recursive_max([1,2,7,10000,8, 3,100]))
+print(recursive_max([1,2,7,10000,89999999, 3,100]))
