@@ -107,3 +107,9 @@
 : 1636158374:0;ls
 : 1636158376:0;git add .
 : 1636158469:0;git commit -am "Solve move zeros challenges"
+: 1636158473:0;git push
+: 1636158492:0;clear
+: 1636212843:0;ls
+: 1636212851:0;cd ../../..
+: 1636214441:0;vim valid_mountain_array.py
+: 1636214453:0;git add .
