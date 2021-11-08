@@ -101,3 +101,9 @@ exit
 : 1632743163:0;/usr/local/bin/python3 /Users/emmywonder/programming/python/algorithm_challenges/recursion/recursive_summation.py
 : 1634559527:0;ls
 : 1634559540:0;cd ..
+: 1636385195:0;ls
+: 1636385202:0;vim skip_string.py
+: 1636385384:0;python skip_string.py
+: 1636385388:0;vim skip_string.py
+: 1636385413:0;python skip_string.py
+: 1636385416:0;git add .
