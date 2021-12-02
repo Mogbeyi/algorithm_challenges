@@ -36,3 +36,13 @@ clear
 : 1636686072:0;python repeated_string.py
 : 1636686079:0;vim repeated_string.py
 : 1636686286:0;git add .
+: 1636686296:0;git commit -m "Solve repeated string"
+: 1636686299:0;git push
+: 1636686305:0;clear
+: 1636686463:0;ls
+: 1636686481:0;vim minimum_distance.py
+: 1636686630:0;python minimum_distance.py
+: 1636686642:0;vim minimum_distance.py
+: 1638450158:0;ls
+: 1638450168:0;vim sherlock_and_array.py
+: 1638450177:0;git add .
