@@ -107,3 +107,8 @@ exit
 : 1636385388:0;vim skip_string.py
 : 1636385413:0;python skip_string.py
 : 1636385416:0;git add .
+: 1636385433:0;git commit -m "Solve skip string challenge"
+: 1636385434:0;git push
+: 1636385439:0;clear
+: 1636395163:0;ls
+: 1636395167:0;cd ~

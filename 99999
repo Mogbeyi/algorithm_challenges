@@ -138,3 +138,44 @@
 : 1636109722:0;cd leetcode
 : 1636214424:0;ls
 : 1636214426:0;cd leetcode
+: 1636385190:0;ls
+: 1636385194:0;cd recursion
+: 1636630329:0;ls
+: 1636630331:0;cd leetcode
+: 1636630347:0;ls
+: 1636630358:0;cd interview_prep
+: 1636630366:0;ls
+: 1636630370:0;cd leetcode
+: 1636685316:0;ls
+: 1636685319:0;cd hackerrank
+: 1638450155:0;ls
+: 1638450157:0;cd hackerrank
+: 1642419543:0;ls
+: 1642419547:0;cd hackerrank
+: 1643048289:0;git remote -v origin
+: 1643048322:0;git config --get remote.origin.url\
+
+: 1643048326:0;cd ../
+: 1643048452:0;git remote -v
+: 1643048488:0;clear
+: 1643048590:0;ls
+: 1643048597:0;git remote show origin
+: 1643048621:0;clear
+: 1643048625:0;git remote -v
+: 1643048631:0;git remote show origin
+: 1643048641:0;clear
+: 1643048736:0;history | grep git --color
+: 1643048754:0;clear
+: 1643048761:0;git remote show origin
+: 1643048773:0;git remote -v
+: 1643048774:0;clear
+: 1643109835:0;ls
+: 1643109837:0;cd ..
+: 1643801088:0;ls
+: 1643801093:0;cd hackerrank_interview
+: 1643837141:0;ls
+: 1643837144:0;cd hackerrank
+: 1643837332:0;ls
+: 1643837337:0;cd hackerrank
+: 1643875527:0;ls
+: 1643875529:0;cd hackerrank

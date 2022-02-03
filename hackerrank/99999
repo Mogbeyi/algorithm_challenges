@@ -121,3 +121,17 @@
 : 1643838594:0;python closest_numbers.py
 : 1643841963:0;ls
 : 1643841966:0;git add .
+: 1643841986:0;git commit -m "Solve closest numbers challenge"
+: 1643841988:0;git push
+: 1643841994:0;clear
+: 1643842000:0;git diff
+: 1643843130:0;ls
+: 1643843135:0;cd ../../..
+: 1643875530:0;ls
+: 1643875533:0;subl closest_numbers.py
+: 1643878032:0;python closest_numbers.py
+: 1643878118:0;clear
+: 1643878120:0;python closest_numbers.py
+: 1643890424:0;ls
+: 1643890428:0;vim find_median.py
+: 1643890447:0;git commit -am "Solve find median challenge"

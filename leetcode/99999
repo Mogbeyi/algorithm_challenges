@@ -144,3 +144,12 @@
 : 1636158262:0;cd arrays_and_strings
 : 1636214427:0;ls
 : 1636214431:0;cd arrays_and_strings
+: 1636385186:0;ls
+: 1636385190:0;cd ..
+: 1636630332:0;ls
+: 1636630347:0;cd ..
+: 1636630371:0;ls
+: 1636630379:0;mkdir interview_questions
+: 1636630382:0;cd interview_questions
+: 1636640443:0;ls
+: 1636640448:0;cd general
