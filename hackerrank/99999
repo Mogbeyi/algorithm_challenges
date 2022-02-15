@@ -135,3 +135,9 @@
 : 1643890424:0;ls
 : 1643890428:0;vim find_median.py
 : 1643890447:0;git commit -am "Solve find median challenge"
+: 1643890452:0;git push
+: 1643931524:0;cd ../..
+: 1644940688:0;clear
+: 1644941458:0;ls
+: 1644941471:0;vim mark_and_toys.py
+: 1644941499:0;git commit -am "Solve mark and toys challenge"

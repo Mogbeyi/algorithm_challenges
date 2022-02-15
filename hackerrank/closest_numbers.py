@@ -1,9 +1,3 @@
-'''
-3. Find the pairs
-4. Convert pairs to array
-5. Return array
-'''
-
 def closestNumbers(arr):
 	sorted_arr = sorted(arr)
 	min_diff = get_min_diff(sorted_arr)
@@ -40,3 +34,4 @@ print(closestNumbers([5,2,3,4,1]))
 
 
 
+08103248778
