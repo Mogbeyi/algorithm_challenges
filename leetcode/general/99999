@@ -49,3 +49,9 @@
 : 1645037663:0;clear
 : 1645037665:0;vim test.py
 : 1645037678:0;git add .
+: 1645037700:0;git commit -m "Solve multi dimensional array problem"
+: 1645037703:0;git push
+: 1645037715:0;git remote -v
+: 1645037723:0;git remote show origin
+: 1645037767:0;mv test.py multi_dimensional_array.py
+: 1645037793:0;git commit -am "Change test.py to multi_dimensional_array.py"

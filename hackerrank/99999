@@ -141,3 +141,7 @@
 : 1644941458:0;ls
 : 1644941471:0;vim mark_and_toys.py
 : 1644941499:0;git commit -am "Solve mark and toys challenge"
+: 1644941500:0;git push
+: 1644941550:0;clear
+: 1644947789:0;ls
+: 1644947791:0;cd ../..
