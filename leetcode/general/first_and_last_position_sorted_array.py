@@ -37,6 +37,18 @@ def find_last(arr, target):
 	return None
 
 
+# def start_is_target(arr, target):
+# 	return 0 if arr[0] == target
+
+
+# def last_is_target(arr, target):
+# 	return len(arr) - 1 if arr[-1] == target
+
+
+# def find_start_and_end_position(arr, target, condition_fn, position_fn):
+# 	if condition_fn(arr, target)
+
+
 def find_first_and_last(arr, target):
 	if len(arr) == 0:
 		return [-1, -1]
@@ -52,3 +64,6 @@ def find_first_and_last(arr, target):
 		return [first, first]
 	else:
 		return [first, last]
+
+print(find_first_and_last([1,2,3,4,4,5], 4))
+

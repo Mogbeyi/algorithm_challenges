@@ -13,3 +13,39 @@
 : 1644966642:0;clear
 : 1644966643:0;python first_and_last_position_sorted_array.py
 : 1644969109:0;git add .
+: 1644969129:0;git commit -m "Solve first and last position of sorted array"
+: 1644969131:0;git push
+: 1644969135:0;clear
+: 1644997775:0;ls
+: 1644997782:0;vim test.py
+: 1644997842:0;python test.py
+: 1644997845:0;vim test.py
+: 1644997880:0;python test.py
+: 1644997882:0;vim test.py
+: 1644997894:0;python test.py
+: 1644997896:0;vim test.py
+: 1644997914:0;rm test.py
+: 1644997994:0;vim test.py
+: 1644998127:0;rm test.py
+: 1644998129:0;clear
+: 1644998130:0;s
+: 1645016891:0;ls
+: 1645016927:0;python
+: 1645016930:0;clear
+: 1645016931:0;ls
+: 1645016944:0;python first_and_last_position_sorted_array.py
+: 1645017856:0;clear
+: 1645037168:0;ls
+: 1645037173:0;vim test.py
+: 1645037425:0;python test.py
+: 1645037432:0;vim test.py
+: 1645037442:0;python test.py
+: 1645037450:0;vim test.py
+: 1645037465:0;python test.py
+: 1645037471:0;vim test.py
+: 1645037576:0;python test.py
+: 1645037603:0;vim test.py
+: 1645037636:0;python test.py
+: 1645037663:0;clear
+: 1645037665:0;vim test.py
+: 1645037678:0;git add .
