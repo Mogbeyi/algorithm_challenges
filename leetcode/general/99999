@@ -66,3 +66,22 @@
 : 1645038264:0;ls
 : 1645038269:0;vim multi_dimensional_array.py
 : 1645038309:0;git commit -am "Add another solution for multi_dimensional_array"
+: 1645038311:0;git push
+: 1645038315:0;clear
+: 1645038696:0;vim multi_dimensional_array.py
+: 1645038909:0;ls
+: 1645038913:0;clear
+: 1645097318:0;ls
+: 1645097325:0;cd ../..
+: 1645276344:0;ls
+: 1645276356:0;vim first-last-position-sorted-array.py
+: 1645276462:0;vim first_and_last_position_sorted_array.py
+: 1645276475:0;subl first_and_last_position_sorted_array.py
+: 1645276921:0;ls
+: 1645276924:0;python first_and_last_position_sorted_array.py
+: 1645276970:0;clear
+: 1645277918:0;ls
+: 1645277921:0;python first_and_last_position_sorted_array.py
+: 1645280272:0;clear
+: 1645280278:0;python first_and_last_position_sorted_array.py
+: 1645312431:0;git add .
