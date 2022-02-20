@@ -55,3 +55,9 @@
 : 1645224550:0;python strugacaro.py
 : 1645224554:0;vim strugacaro.py
 : 1645224561:0;git add .
+: 1645224576:0;git commit -m "Solve strugacaro weather challenge"
+: 1645224578:0;clear
+: 1645224579:0;git push
+: 1645224583:0;clear
+: 1645276305:0;ls
+: 1645276319:0;cd ../..
