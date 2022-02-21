@@ -147,3 +147,52 @@
 : 1645323161:0;clear
 : 1645323162:0;ls
 : 1645323308:0;git commit -am "Solve kth and nth largest element in an array"
+: 1645323310:0;git push
+: 1645326859:0;vim nth_largest_element.py
+: 1645326887:0;python nth_largest_element.py
+: 1645326902:0;vim nth_largest_element.py
+: 1645326914:0;python nth_largest_element.py
+: 1645326993:0;vim nth_largest_element.py
+: 1645327057:0;python nth_largest_element.py
+: 1645327063:0;vim nth_largest_element.py
+: 1645327074:0;clear
+: 1645327076:0;vim nth_largest_element.py
+: 1645327084:0;python nth_largest_element.py
+: 1645327183:0;vim nth_largest_element.py
+: 1645327211:0;python nth_largest_element.py
+: 1645327239:0;vim nth_largest_element.py
+: 1645327247:0;python nth_largest_element.py
+: 1645391337:0;ls
+: 1645391428:0;vim vim nth_largest_element.py
+: 1645391439:0;ls
+: 1645391444:0;rm vim
+: 1645391446:0;ls
+: 1645391448:0;vim nth_largest_element.py
+: 1645391771:0;ls
+: 1645391773:0;clear
+: 1645392553:0;vim nth_largest_element.py
+: 1645392949:0;python nth_largest_element.py
+: 1645392956:0;vim nth_largest_element.py
+: 1645392979:0;python nth_largest_element.py
+: 1645393426:0;vim top_k_frequent_element.py
+: 1645393500:0;subl top_k_frequent_element.py
+: 1645393860:0;python top_k_frequent_element.py
+: 1645393906:0;clear
+: 1645393928:0;python top_k_frequent_element.py
+: 1645393978:0;clear
+: 1645394001:0;python top_k_frequent_element.py
+: 1645394380:0;vim top_k_frequent_element.py
+: 1645394494:0;python top_k_frequent_element.py
+: 1645394504:0;vim top_k_frequent_element.py
+: 1645398026:0;python top_k_frequent_element.py
+: 1645402610:0;python
+: 1645405912:0;python top_k_frequent_element.py
+: 1645406817:0;clear
+: 1645406819:0;cd ../..
+: 1645440898:0;ls
+: 1645440904:0;python nth_largest_element.py
+: 1645440930:0;clear
+: 1645440932:0;cat nth_largest_element.py
+: 1645440940:0;vim nth_largest_element.py
+: 1645440983:0;python top_k_frequent_element.py
+: 1645441005:0;git commit -am "Solve top k frequent element"
