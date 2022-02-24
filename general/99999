@@ -113,3 +113,11 @@
 : 1645728123:0;clear
 : 1645728125:0;vim password.py
 : 1645728507:0;git add .
+: 1645728518:0;git commit -m "Solve password challenge"
+: 1645728520:0;git push
+: 1645728529:0;vim password.py
+: 1645729215:0;python password.py
+: 1645729220:0;vim password.py
+: 1645729263:0;ls
+: 1645729311:0;vim password.py
+: 1645729351:0;git add .
