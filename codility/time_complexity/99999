@@ -11,3 +11,8 @@
 : 1646261680:0;python frogjmp.py
 : 1646261683:0;vim frogjmp.py
 : 1646267532:0;git commit -am "Solve frogjmp optimally"
+: 1646267534:0;git push
+: 1646268634:0;ls
+: 1646268658:0;touch permMissingElem.py
+: 1646268661:0;vim permMissingElem.py
+: 1646268668:0;git add .
