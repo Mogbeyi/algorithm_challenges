@@ -1,13 +1,9 @@
-def solution(x, y, d):
-    a = x
-    b = y
-    c = d
-    count = 0
+def solution(X, Y, D):
+    # write your code in Python 3.6
+    diff = abs(X - Y)
 
-    while a < b:
-        count += 1
-        a += c
+    if diff % D == 0:
+        return diff // D
+    else:
+        return diff // D + 1
 
-    return count
-
-print(solution(10, 85, 30))

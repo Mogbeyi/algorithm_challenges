@@ -2,3 +2,12 @@
 : 1646258459:0;vim frogjmp.py
 : 1646258572:0;python frogjmp.py
 : 1646258615:0;git add .
+: 1646258632:0;git commit -m "Write Naive solution for frogjmp"
+: 1646258634:0;git push
+: 1646258834:0;python
+: 1646261023:0;vim frogjmp.py
+: 1646261309:0;python
+: 1646261352:0;vim frogjmp.py
+: 1646261680:0;python frogjmp.py
+: 1646261683:0;vim frogjmp.py
+: 1646267532:0;git commit -am "Solve frogjmp optimally"

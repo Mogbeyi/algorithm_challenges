@@ -121,3 +121,20 @@
 : 1645729263:0;ls
 : 1645729311:0;vim password.py
 : 1645729351:0;git add .
+: 1645729365:0;git commit -m "Solve password problem using currying"
+: 1645729368:0;git pus
+: 1645729371:0;git push
+: 1645729381:0;vim password.py
+: 1645730664:0;python password.py
+: 1645730673:0;clear
+: 1645730677:0;history
+: 1645730683:0;clear
+: 1645730687:0;python password.py
+: 1645730710:0;vim password.py
+: 1645741795:0;cd ../../
+: 1646083210:0;ls
+: 1646083215:0;vim password.py
+: 1646083418:0;python password.py
+: 1646083423:0;vim password.py
+: 1646083453:0;python password.py
+: 1646083457:0;vim password.py

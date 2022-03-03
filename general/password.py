@@ -21,14 +21,11 @@ def get_valid_passwords(data):
 #     if ' ' in password:
 #         return False
 
-#     exist = False
-
 #     for char in chars:
 #        if char in password:
-#             exist = True
-#             break
+#            return True
 
-#     return exist
+#     return False 
 
 def is_valid(password):
     contains_characters = has_char(password)
@@ -44,18 +41,13 @@ def has_char(password):
         if ' ' in password:
             return False
 
-        exist = False
-
         for char in chars:
            if char in password:
-                exist = True
-                break
-        return exist
+               return True
+
+        return False 
 
     return contains_char
-
-
-
 
 def main():
     data = input("Enter passwords separated by comma: ").split(',')
