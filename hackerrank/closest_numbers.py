@@ -32,6 +32,3 @@ def get_result(arr, min_diff):
 
 print(closestNumbers([5,2,3,4,1]))
 
-
-
-08103248778
