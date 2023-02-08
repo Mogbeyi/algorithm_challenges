@@ -5,3 +5,5 @@ def is_palindrome(string):
         return False 
     else:
         return is_palindrome(string[1:-1])
+
+print(is_palindrome("eve"))
