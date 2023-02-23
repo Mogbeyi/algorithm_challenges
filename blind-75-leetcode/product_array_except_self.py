@@ -27,5 +27,3 @@ def calc_suffix(prefix_result, nums):
 print(product_array_except_self([1,2,3,4]))
 print(product_array_except_self([1,2,3]))
 print(product_array_except_self([-1,1,0,-3,3]))
-
-
