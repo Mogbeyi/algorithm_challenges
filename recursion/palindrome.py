@@ -4,8 +4,8 @@ def is_palindrome(string):
     elif string[0] != string[-1]:
         return False 
     else:
-        print(string)
         return is_palindrome(string[1:-1])
 
 print(is_palindrome("eve"))
 print(is_palindrome("emme"))
+print(is_palindrome("emmy wonder"))
